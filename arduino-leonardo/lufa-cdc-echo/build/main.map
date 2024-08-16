@@ -1,0 +1,1571 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o (exit)
+/usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                              build/usb.o (__do_copy_data)
+/usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                              build/DeviceStandardReq.o (__do_clear_bss)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+                              build/RNDISClassDevice.o (memcpy_P)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+                              build/CDCClassDevice.o (__strlen_P)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+                              build/HIDClassDevice.o (memcmp)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                              build/HIDClassDevice.o (memcpy)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+                              build/HIDClassDevice.o (memset)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+                              build/EndpointStream_AVR8.o (eeprom_read_byte)
+/usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+                              build/EndpointStream_AVR8.o (eeprom_update_byte)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_IsInitialized   0x1               build/USBTask.o
+USB_DeviceState     0x1               build/USBTask.o
+USB_Device_ConfigurationNumber
+                    0x1               build/DeviceStandardReq.o
+USB_Device_CurrentlySelfPowered
+                    0x1               build/DeviceStandardReq.o
+USB_ControlRequest  0x8               build/USBTask.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               build/DeviceStandardReq.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .text          0x0000000000000000        0x0 build/main.o
+ .data          0x0000000000000000        0x0 build/main.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .text          0x0000000000000000        0x0 build/usb.o
+ .bss           0x0000000000000000        0x0 build/usb.o
+ .text          0x0000000000000000        0x0 build/HIDParser.o
+ .data          0x0000000000000000        0x0 build/HIDParser.o
+ .bss           0x0000000000000000        0x0 build/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x0000000000000000      0x6e0 build/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x0000000000000000       0xbc build/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x0000000000000000       0xb2 build/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x0000000000000000       0x56 build/HIDParser.o
+ .debug_info    0x0000000000000000      0x728 build/HIDParser.o
+ .debug_abbrev  0x0000000000000000      0x220 build/HIDParser.o
+ .debug_loc     0x0000000000000000      0xb56 build/HIDParser.o
+ .debug_aranges
+                0x0000000000000000       0x38 build/HIDParser.o
+ .debug_ranges  0x0000000000000000      0x110 build/HIDParser.o
+ .debug_line    0x0000000000000000      0x584 build/HIDParser.o
+ .debug_str     0x0000000000000000      0x6a4 build/HIDParser.o
+ .comment       0x0000000000000000       0x12 build/HIDParser.o
+ .debug_frame   0x0000000000000000      0x114 build/HIDParser.o
+ .text          0x0000000000000000        0x0 build/Device_AVR8.o
+ .data          0x0000000000000000        0x0 build/Device_AVR8.o
+ .bss           0x0000000000000000        0x0 build/Device_AVR8.o
+ .text.USB_Device_SendRemoteWakeup
+                0x0000000000000000       0x2c build/Device_AVR8.o
+ .debug_info    0x0000000000000000      0x18c build/Device_AVR8.o
+ .debug_abbrev  0x0000000000000000       0xb6 build/Device_AVR8.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/Device_AVR8.o
+ .debug_ranges  0x0000000000000000       0x10 build/Device_AVR8.o
+ .debug_line    0x0000000000000000      0x17c build/Device_AVR8.o
+ .debug_str     0x0000000000000000      0x2be build/Device_AVR8.o
+ .comment       0x0000000000000000       0x12 build/Device_AVR8.o
+ .debug_frame   0x0000000000000000       0x24 build/Device_AVR8.o
+ .text          0x0000000000000000        0x0 build/EndpointStream_AVR8.o
+ .data          0x0000000000000000        0x0 build/EndpointStream_AVR8.o
+ .bss           0x0000000000000000        0x0 build/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x0000000000000000       0x78 build/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x0000000000000000       0x78 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_LE
+                0x0000000000000000       0x9e build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x0000000000000000       0xa8 build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_LE
+                0x0000000000000000       0x9e build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x0000000000000000       0xa8 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_LE
+                0x0000000000000000       0xa0 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x0000000000000000       0xaa build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x0000000000000000       0xa2 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x0000000000000000       0xac build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x0000000000000000       0xa2 build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x0000000000000000       0xac build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x0000000000000000       0xcc build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x0000000000000000       0x76 build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x0000000000000000       0x84 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x0000000000000000       0xc8 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x0000000000000000       0xe6 build/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x0000000000000000       0xf4 build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x0000000000000000       0x8c build/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x0000000000000000       0x94 build/EndpointStream_AVR8.o
+ .text          0x0000000000000000        0x0 build/Endpoint_AVR8.o
+ .data          0x0000000000000000        0x0 build/Endpoint_AVR8.o
+ .bss           0x0000000000000000        0x0 build/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x0000000000000000       0x28 build/Endpoint_AVR8.o
+ .text          0x0000000000000000        0x0 build/Host_AVR8.o
+ .data          0x0000000000000000        0x0 build/Host_AVR8.o
+ .bss           0x0000000000000000        0x0 build/Host_AVR8.o
+ .debug_info    0x0000000000000000       0x56 build/Host_AVR8.o
+ .debug_abbrev  0x0000000000000000       0x26 build/Host_AVR8.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/Host_AVR8.o
+ .debug_line    0x0000000000000000       0x1a build/Host_AVR8.o
+ .debug_str     0x0000000000000000      0x188 build/Host_AVR8.o
+ .comment       0x0000000000000000       0x12 build/Host_AVR8.o
+ .text          0x0000000000000000        0x0 build/PipeStream_AVR8.o
+ .data          0x0000000000000000        0x0 build/PipeStream_AVR8.o
+ .bss           0x0000000000000000        0x0 build/PipeStream_AVR8.o
+ .debug_info    0x0000000000000000       0x56 build/PipeStream_AVR8.o
+ .debug_abbrev  0x0000000000000000       0x26 build/PipeStream_AVR8.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/PipeStream_AVR8.o
+ .debug_line    0x0000000000000000       0x1a build/PipeStream_AVR8.o
+ .debug_str     0x0000000000000000      0x18e build/PipeStream_AVR8.o
+ .comment       0x0000000000000000       0x12 build/PipeStream_AVR8.o
+ .text          0x0000000000000000        0x0 build/Pipe_AVR8.o
+ .data          0x0000000000000000        0x0 build/Pipe_AVR8.o
+ .bss           0x0000000000000000        0x0 build/Pipe_AVR8.o
+ .debug_info    0x0000000000000000       0x56 build/Pipe_AVR8.o
+ .debug_abbrev  0x0000000000000000       0x26 build/Pipe_AVR8.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/Pipe_AVR8.o
+ .debug_line    0x0000000000000000       0x1a build/Pipe_AVR8.o
+ .debug_str     0x0000000000000000      0x188 build/Pipe_AVR8.o
+ .comment       0x0000000000000000       0x12 build/Pipe_AVR8.o
+ .text          0x0000000000000000        0x0 build/USBController_AVR8.o
+ .data          0x0000000000000000        0x0 build/USBController_AVR8.o
+ .bss           0x0000000000000000        0x0 build/USBController_AVR8.o
+ .text.USB_Disable
+                0x0000000000000000       0x34 build/USBController_AVR8.o
+ .text          0x0000000000000000        0x0 build/USBInterrupt_AVR8.o
+ .data          0x0000000000000000        0x0 build/USBInterrupt_AVR8.o
+ .bss           0x0000000000000000        0x0 build/USBInterrupt_AVR8.o
+ .text          0x0000000000000000        0x0 build/ConfigDescriptors.o
+ .data          0x0000000000000000        0x0 build/ConfigDescriptors.o
+ .bss           0x0000000000000000        0x0 build/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x0000000000000000       0x3c build/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x0000000000000000       0x38 build/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x0000000000000000       0x46 build/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x0000000000000000       0x3e build/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x0000000000000000       0x66 build/ConfigDescriptors.o
+ .debug_info    0x0000000000000000      0x492 build/ConfigDescriptors.o
+ .debug_abbrev  0x0000000000000000      0x1b9 build/ConfigDescriptors.o
+ .debug_loc     0x0000000000000000      0x59f build/ConfigDescriptors.o
+ .debug_aranges
+                0x0000000000000000       0x40 build/ConfigDescriptors.o
+ .debug_ranges  0x0000000000000000       0x30 build/ConfigDescriptors.o
+ .debug_line    0x0000000000000000      0x21d build/ConfigDescriptors.o
+ .debug_str     0x0000000000000000      0x4c0 build/ConfigDescriptors.o
+ .comment       0x0000000000000000       0x12 build/ConfigDescriptors.o
+ .debug_frame   0x0000000000000000       0xfc build/ConfigDescriptors.o
+ .text          0x0000000000000000        0x0 build/DeviceStandardReq.o
+ .data          0x0000000000000000        0x0 build/DeviceStandardReq.o
+ .bss           0x0000000000000000        0x0 build/DeviceStandardReq.o
+ .text          0x0000000000000000        0x0 build/Events.o
+ .data          0x0000000000000000        0x0 build/Events.o
+ .bss           0x0000000000000000        0x0 build/Events.o
+ .text.USB_Event_Stub_2
+                0x0000000000000000        0x2 build/Events.o
+ .text.USB_Event_Stub_3
+                0x0000000000000000        0x2 build/Events.o
+ .text          0x0000000000000000        0x0 build/HostStandardReq.o
+ .data          0x0000000000000000        0x0 build/HostStandardReq.o
+ .bss           0x0000000000000000        0x0 build/HostStandardReq.o
+ .debug_info    0x0000000000000000       0x56 build/HostStandardReq.o
+ .debug_abbrev  0x0000000000000000       0x26 build/HostStandardReq.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/HostStandardReq.o
+ .debug_line    0x0000000000000000       0x1a build/HostStandardReq.o
+ .debug_str     0x0000000000000000      0x189 build/HostStandardReq.o
+ .comment       0x0000000000000000       0x12 build/HostStandardReq.o
+ .text          0x0000000000000000        0x0 build/USBTask.o
+ .data          0x0000000000000000        0x0 build/USBTask.o
+ .bss           0x0000000000000000        0x0 build/USBTask.o
+ .text          0x0000000000000000        0x0 build/AudioClassDevice.o
+ .data          0x0000000000000000        0x0 build/AudioClassDevice.o
+ .bss           0x0000000000000000        0x0 build/AudioClassDevice.o
+ .text.Audio_Device_ConfigureEndpoints
+                0x0000000000000000       0x32 build/AudioClassDevice.o
+ .text.Audio_Device_Event_Stub
+                0x0000000000000000        0x2 build/AudioClassDevice.o
+ .text.Audio_Device_ProcessControlRequest
+                0x0000000000000000      0x2e0 build/AudioClassDevice.o
+ .debug_info    0x0000000000000000      0x902 build/AudioClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x262 build/AudioClassDevice.o
+ .debug_loc     0x0000000000000000      0x311 build/AudioClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x30 build/AudioClassDevice.o
+ .debug_ranges  0x0000000000000000       0x58 build/AudioClassDevice.o
+ .debug_line    0x0000000000000000      0x471 build/AudioClassDevice.o
+ .debug_str     0x0000000000000000      0x74d build/AudioClassDevice.o
+ .comment       0x0000000000000000       0x12 build/AudioClassDevice.o
+ .debug_frame   0x0000000000000000       0xa8 build/AudioClassDevice.o
+ .text          0x0000000000000000        0x0 build/CCIDClassDevice.o
+ .data          0x0000000000000000        0x0 build/CCIDClassDevice.o
+ .bss           0x0000000000000000        0x0 build/CCIDClassDevice.o
+ .text.CCID_CheckStatusNoError
+                0x0000000000000000        0xc build/CCIDClassDevice.o
+ .text.CCID_Device_ProcessControlRequest
+                0x0000000000000000       0x70 build/CCIDClassDevice.o
+ .text.CCID_Device_ConfigureEndpoints
+                0x0000000000000000       0x30 build/CCIDClassDevice.o
+ .text.CCID_Device_USBTask
+                0x0000000000000000      0x3d6 build/CCIDClassDevice.o
+ .debug_info    0x0000000000000000      0xe6d build/CCIDClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x380 build/CCIDClassDevice.o
+ .debug_loc     0x0000000000000000      0x67c build/CCIDClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x38 build/CCIDClassDevice.o
+ .debug_ranges  0x0000000000000000       0xc8 build/CCIDClassDevice.o
+ .debug_line    0x0000000000000000      0x60a build/CCIDClassDevice.o
+ .debug_str     0x0000000000000000      0xa74 build/CCIDClassDevice.o
+ .comment       0x0000000000000000       0x12 build/CCIDClassDevice.o
+ .debug_frame   0x0000000000000000       0xbc build/CCIDClassDevice.o
+ .text          0x0000000000000000        0x0 build/CDCClassDevice.o
+ .data          0x0000000000000000        0x0 build/CDCClassDevice.o
+ .bss           0x0000000000000000        0x0 build/CDCClassDevice.o
+ .text.CDC_Device_SendString
+                0x0000000000000000       0x42 build/CDCClassDevice.o
+ .text.CDC_Device_SendData
+                0x0000000000000000       0x34 build/CDCClassDevice.o
+ .text.CDC_Device_SendString_P
+                0x0000000000000000       0x52 build/CDCClassDevice.o
+ .text.CDC_Device_SendData_P
+                0x0000000000000000       0x34 build/CDCClassDevice.o
+ .text.CDC_Device_putchar
+                0x0000000000000000       0x22 build/CDCClassDevice.o
+ .text.CDC_Device_getchar
+                0x0000000000000000       0x14 build/CDCClassDevice.o
+ .text.CDC_Device_getchar_Blocking
+                0x0000000000000000       0x34 build/CDCClassDevice.o
+ .rodata        0x0000000000000000        0x8 build/CDCClassDevice.o
+ .text.CDC_Device_SendControlLineStateChange
+                0x0000000000000000       0x8e build/CDCClassDevice.o
+ .text.CDC_Device_CreateStream
+                0x0000000000000000       0x26 build/CDCClassDevice.o
+ .text.CDC_Device_CreateBlockingStream
+                0x0000000000000000       0x26 build/CDCClassDevice.o
+ .text          0x0000000000000000        0x0 build/HIDClassDevice.o
+ .data          0x0000000000000000        0x0 build/HIDClassDevice.o
+ .bss           0x0000000000000000        0x0 build/HIDClassDevice.o
+ .text.HID_Device_ProcessControlRequest
+                0x0000000000000000      0x274 build/HIDClassDevice.o
+ .text.HID_Device_ConfigureEndpoints
+                0x0000000000000000       0x28 build/HIDClassDevice.o
+ .text.HID_Device_USBTask
+                0x0000000000000000      0x17a build/HIDClassDevice.o
+ .debug_info    0x0000000000000000      0x9f5 build/HIDClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x28e build/HIDClassDevice.o
+ .debug_loc     0x0000000000000000      0x3ea build/HIDClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x30 build/HIDClassDevice.o
+ .debug_ranges  0x0000000000000000       0x38 build/HIDClassDevice.o
+ .debug_line    0x0000000000000000      0x558 build/HIDClassDevice.o
+ .debug_str     0x0000000000000000      0x7ba build/HIDClassDevice.o
+ .comment       0x0000000000000000       0x12 build/HIDClassDevice.o
+ .debug_frame   0x0000000000000000       0xe4 build/HIDClassDevice.o
+ .text          0x0000000000000000        0x0 build/MassStorageClassDevice.o
+ .data          0x0000000000000000        0x0 build/MassStorageClassDevice.o
+ .bss           0x0000000000000000        0x0 build/MassStorageClassDevice.o
+ .text.MS_Device_ProcessControlRequest
+                0x0000000000000000       0x7e build/MassStorageClassDevice.o
+ .text.MS_Device_ConfigureEndpoints
+                0x0000000000000000       0x3e build/MassStorageClassDevice.o
+ .text.MS_Device_USBTask
+                0x0000000000000000      0x23a build/MassStorageClassDevice.o
+ .debug_info    0x0000000000000000      0xa09 build/MassStorageClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x2c9 build/MassStorageClassDevice.o
+ .debug_loc     0x0000000000000000      0x30a build/MassStorageClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x30 build/MassStorageClassDevice.o
+ .debug_ranges  0x0000000000000000       0x70 build/MassStorageClassDevice.o
+ .debug_line    0x0000000000000000      0x4cd build/MassStorageClassDevice.o
+ .debug_str     0x0000000000000000      0x899 build/MassStorageClassDevice.o
+ .comment       0x0000000000000000       0x12 build/MassStorageClassDevice.o
+ .debug_frame   0x0000000000000000       0x80 build/MassStorageClassDevice.o
+ .text          0x0000000000000000        0x0 build/MIDIClassDevice.o
+ .data          0x0000000000000000        0x0 build/MIDIClassDevice.o
+ .bss           0x0000000000000000        0x0 build/MIDIClassDevice.o
+ .text.MIDI_Device_ConfigureEndpoints
+                0x0000000000000000       0x32 build/MIDIClassDevice.o
+ .text.MIDI_Device_SendEventPacket
+                0x0000000000000000       0x3e build/MIDIClassDevice.o
+ .text.MIDI_Device_Flush
+                0x0000000000000000       0x3a build/MIDIClassDevice.o
+ .text.MIDI_Device_USBTask
+                0x0000000000000000       0x22 build/MIDIClassDevice.o
+ .text.MIDI_Device_ReceiveEventPacket
+                0x0000000000000000       0x4a build/MIDIClassDevice.o
+ .debug_info    0x0000000000000000      0x74f build/MIDIClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x282 build/MIDIClassDevice.o
+ .debug_loc     0x0000000000000000      0x314 build/MIDIClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x40 build/MIDIClassDevice.o
+ .debug_ranges  0x0000000000000000       0x30 build/MIDIClassDevice.o
+ .debug_line    0x0000000000000000      0x3cd build/MIDIClassDevice.o
+ .debug_str     0x0000000000000000      0x763 build/MIDIClassDevice.o
+ .comment       0x0000000000000000       0x12 build/MIDIClassDevice.o
+ .debug_frame   0x0000000000000000       0x70 build/MIDIClassDevice.o
+ .text          0x0000000000000000        0x0 build/PrinterClassDevice.o
+ .data          0x0000000000000000        0x0 build/PrinterClassDevice.o
+ .bss           0x0000000000000000        0x0 build/PrinterClassDevice.o
+ .text.PRNT_Device_ConfigureEndpoints
+                0x0000000000000000       0x38 build/PrinterClassDevice.o
+ .text.PRNT_Device_SendString
+                0x0000000000000000       0x32 build/PrinterClassDevice.o
+ .text.PRNT_Device_SendData
+                0x0000000000000000       0x24 build/PrinterClassDevice.o
+ .text.PRNT_Device_SendByte
+                0x0000000000000000       0x40 build/PrinterClassDevice.o
+ .text.PRNT_Device_putchar
+                0x0000000000000000       0x22 build/PrinterClassDevice.o
+ .text.PRNT_Device_Flush
+                0x0000000000000000       0x52 build/PrinterClassDevice.o
+ .text.PRNT_Device_USBTask
+                0x0000000000000000       0x9c build/PrinterClassDevice.o
+ .text.PRNT_Device_BytesReceived
+                0x0000000000000000       0x4e build/PrinterClassDevice.o
+ .text.PRNT_Device_ReceiveByte
+                0x0000000000000000       0x5c build/PrinterClassDevice.o
+ .text.PRNT_Device_getchar
+                0x0000000000000000       0x14 build/PrinterClassDevice.o
+ .text.PRNT_Device_getchar_Blocking
+                0x0000000000000000       0x34 build/PrinterClassDevice.o
+ .text.PRNT_Device_CreateStream
+                0x0000000000000000       0x26 build/PrinterClassDevice.o
+ .text.PRNT_Device_CreateBlockingStream
+                0x0000000000000000       0x26 build/PrinterClassDevice.o
+ .text.PRNT_Device_Event_Stub
+                0x0000000000000000        0x2 build/PrinterClassDevice.o
+ .text.PRNT_Device_ProcessControlRequest
+                0x0000000000000000       0xe4 build/PrinterClassDevice.o
+ .debug_info    0x0000000000000000      0xd23 build/PrinterClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x33e build/PrinterClassDevice.o
+ .debug_loc     0x0000000000000000      0x85e build/PrinterClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x90 build/PrinterClassDevice.o
+ .debug_ranges  0x0000000000000000       0x98 build/PrinterClassDevice.o
+ .debug_line    0x0000000000000000      0x6ed build/PrinterClassDevice.o
+ .debug_str     0x0000000000000000      0x9be build/PrinterClassDevice.o
+ .comment       0x0000000000000000       0x12 build/PrinterClassDevice.o
+ .debug_frame   0x0000000000000000      0x13c build/PrinterClassDevice.o
+ .text          0x0000000000000000        0x0 build/RNDISClassDevice.o
+ .data          0x0000000000000000        0x0 build/RNDISClassDevice.o
+ .bss           0x0000000000000000        0x0 build/RNDISClassDevice.o
+ .text.RNDIS_Device_ProcessControlRequest
+                0x0000000000000000      0x4f8 build/RNDISClassDevice.o
+ .text.RNDIS_Device_ConfigureEndpoints
+                0x0000000000000000       0x62 build/RNDISClassDevice.o
+ .rodata        0x0000000000000000        0x8 build/RNDISClassDevice.o
+ .text.RNDIS_Device_USBTask
+                0x0000000000000000       0x80 build/RNDISClassDevice.o
+ .text.RNDIS_Device_IsPacketReceived
+                0x0000000000000000       0x28 build/RNDISClassDevice.o
+ .text.RNDIS_Device_ReadPacket
+                0x0000000000000000      0x10a build/RNDISClassDevice.o
+ .text.RNDIS_Device_SendPacket
+                0x0000000000000000       0xe2 build/RNDISClassDevice.o
+ .progmem.data  0x0000000000000000       0x6c build/RNDISClassDevice.o
+ .debug_info    0x0000000000000000     0x1226 build/RNDISClassDevice.o
+ .debug_abbrev  0x0000000000000000      0x395 build/RNDISClassDevice.o
+ .debug_loc     0x0000000000000000     0x104f build/RNDISClassDevice.o
+ .debug_aranges
+                0x0000000000000000       0x48 build/RNDISClassDevice.o
+ .debug_ranges  0x0000000000000000       0x88 build/RNDISClassDevice.o
+ .debug_line    0x0000000000000000      0x728 build/RNDISClassDevice.o
+ .debug_str     0x0000000000000000      0xe52 build/RNDISClassDevice.o
+ .comment       0x0000000000000000       0x12 build/RNDISClassDevice.o
+ .debug_frame   0x0000000000000000      0x13c build/RNDISClassDevice.o
+ .text          0x0000000000000000        0x0 build/AndroidAccessoryClassHost.o
+ .data          0x0000000000000000        0x0 build/AndroidAccessoryClassHost.o
+ .bss           0x0000000000000000        0x0 build/AndroidAccessoryClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/AndroidAccessoryClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/AndroidAccessoryClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/AndroidAccessoryClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/AndroidAccessoryClassHost.o
+ .debug_str     0x0000000000000000      0x199 build/AndroidAccessoryClassHost.o
+ .comment       0x0000000000000000       0x12 build/AndroidAccessoryClassHost.o
+ .text          0x0000000000000000        0x0 build/AudioClassHost.o
+ .data          0x0000000000000000        0x0 build/AudioClassHost.o
+ .bss           0x0000000000000000        0x0 build/AudioClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/AudioClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/AudioClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/AudioClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/AudioClassHost.o
+ .debug_str     0x0000000000000000      0x18e build/AudioClassHost.o
+ .comment       0x0000000000000000       0x12 build/AudioClassHost.o
+ .text          0x0000000000000000        0x0 build/CDCClassHost.o
+ .data          0x0000000000000000        0x0 build/CDCClassHost.o
+ .bss           0x0000000000000000        0x0 build/CDCClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/CDCClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/CDCClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/CDCClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/CDCClassHost.o
+ .debug_str     0x0000000000000000      0x18c build/CDCClassHost.o
+ .comment       0x0000000000000000       0x12 build/CDCClassHost.o
+ .text          0x0000000000000000        0x0 build/HIDClassHost.o
+ .data          0x0000000000000000        0x0 build/HIDClassHost.o
+ .bss           0x0000000000000000        0x0 build/HIDClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/HIDClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/HIDClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/HIDClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/HIDClassHost.o
+ .debug_str     0x0000000000000000      0x18c build/HIDClassHost.o
+ .comment       0x0000000000000000       0x12 build/HIDClassHost.o
+ .text          0x0000000000000000        0x0 build/MassStorageClassHost.o
+ .data          0x0000000000000000        0x0 build/MassStorageClassHost.o
+ .bss           0x0000000000000000        0x0 build/MassStorageClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/MassStorageClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/MassStorageClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/MassStorageClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/MassStorageClassHost.o
+ .debug_str     0x0000000000000000      0x194 build/MassStorageClassHost.o
+ .comment       0x0000000000000000       0x12 build/MassStorageClassHost.o
+ .text          0x0000000000000000        0x0 build/MIDIClassHost.o
+ .data          0x0000000000000000        0x0 build/MIDIClassHost.o
+ .bss           0x0000000000000000        0x0 build/MIDIClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/MIDIClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/MIDIClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/MIDIClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/MIDIClassHost.o
+ .debug_str     0x0000000000000000      0x18d build/MIDIClassHost.o
+ .comment       0x0000000000000000       0x12 build/MIDIClassHost.o
+ .text          0x0000000000000000        0x0 build/PrinterClassHost.o
+ .data          0x0000000000000000        0x0 build/PrinterClassHost.o
+ .bss           0x0000000000000000        0x0 build/PrinterClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/PrinterClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/PrinterClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/PrinterClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/PrinterClassHost.o
+ .debug_str     0x0000000000000000      0x190 build/PrinterClassHost.o
+ .comment       0x0000000000000000       0x12 build/PrinterClassHost.o
+ .text          0x0000000000000000        0x0 build/RNDISClassHost.o
+ .data          0x0000000000000000        0x0 build/RNDISClassHost.o
+ .bss           0x0000000000000000        0x0 build/RNDISClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/RNDISClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/RNDISClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/RNDISClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/RNDISClassHost.o
+ .debug_str     0x0000000000000000      0x18e build/RNDISClassHost.o
+ .comment       0x0000000000000000       0x12 build/RNDISClassHost.o
+ .text          0x0000000000000000        0x0 build/StillImageClassHost.o
+ .data          0x0000000000000000        0x0 build/StillImageClassHost.o
+ .bss           0x0000000000000000        0x0 build/StillImageClassHost.o
+ .debug_info    0x0000000000000000       0x56 build/StillImageClassHost.o
+ .debug_abbrev  0x0000000000000000       0x26 build/StillImageClassHost.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/StillImageClassHost.o
+ .debug_line    0x0000000000000000       0x1a build/StillImageClassHost.o
+ .debug_str     0x0000000000000000      0x193 build/StillImageClassHost.o
+ .comment       0x0000000000000000       0x12 build/StillImageClassHost.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .text.avr-libc
+                0x0000000000000000       0x1a /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .text.avr-libc
+                0x0000000000000000        0xe /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+ .text.avr-libc
+                0x0000000000000000       0x10 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+ .text.avr-libc
+                0x0000000000000000       0x24 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800100 0x0000000000000a00 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+LOAD build/main.o
+LOAD build/usb.o
+LOAD build/HIDParser.o
+LOAD build/Device_AVR8.o
+LOAD build/EndpointStream_AVR8.o
+LOAD build/Endpoint_AVR8.o
+LOAD build/Host_AVR8.o
+LOAD build/PipeStream_AVR8.o
+LOAD build/Pipe_AVR8.o
+LOAD build/USBController_AVR8.o
+LOAD build/USBInterrupt_AVR8.o
+LOAD build/ConfigDescriptors.o
+LOAD build/DeviceStandardReq.o
+LOAD build/Events.o
+LOAD build/HostStandardReq.o
+LOAD build/USBTask.o
+LOAD build/AudioClassDevice.o
+LOAD build/CCIDClassDevice.o
+LOAD build/CDCClassDevice.o
+LOAD build/HIDClassDevice.o
+LOAD build/MassStorageClassDevice.o
+LOAD build/MIDIClassDevice.o
+LOAD build/PrinterClassDevice.o
+LOAD build/RNDISClassDevice.o
+LOAD build/AndroidAccessoryClassHost.o
+LOAD build/AudioClassHost.o
+LOAD build/CDCClassHost.o
+LOAD build/HIDClassHost.o
+LOAD build/MassStorageClassHost.o
+LOAD build/MIDIClassHost.o
+LOAD build/PrinterClassHost.o
+LOAD build/RNDISClassHost.o
+LOAD build/StillImageClassHost.o
+LOAD /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000a00]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0xee0
+ *(.vectors)
+ .vectors       0x0000000000000000       0xac /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000000000000ac                . = ALIGN (0x2)
+                0x00000000000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000000000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x00000000000000ac                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x00000000000000ac       0x9c build/usb.o
+                0x00000000000000ac                product_string
+                0x00000000000000d8                manufacturer_string
+                0x00000000000000f4                language_string
+                0x0000000000000148                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000148                __ctors_start = .
+ *(.ctors)
+                0x0000000000000148                __ctors_end = .
+                0x0000000000000148                __dtors_start = .
+ *(.dtors)
+                0x0000000000000148                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000148        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+                0x0000000000000148                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000148        0xc /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000154       0x16 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000154                __do_copy_data
+ .init4         0x000000000000016a       0x10 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000016a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000017a        0x4 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000017e        0x2 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+                0x000000000000017e                __vector_38
+                0x000000000000017e                __vector_22
+                0x000000000000017e                __vector_28
+                0x000000000000017e                __vector_1
+                0x000000000000017e                __vector_32
+                0x000000000000017e                __vector_34
+                0x000000000000017e                __vector_24
+                0x000000000000017e                __vector_12
+                0x000000000000017e                __bad_interrupt
+                0x000000000000017e                __vector_6
+                0x000000000000017e                __vector_31
+                0x000000000000017e                __vector_35
+                0x000000000000017e                __vector_39
+                0x000000000000017e                __vector_3
+                0x000000000000017e                __vector_23
+                0x000000000000017e                __vector_30
+                0x000000000000017e                __vector_25
+                0x000000000000017e                __vector_13
+                0x000000000000017e                __vector_17
+                0x000000000000017e                __vector_19
+                0x000000000000017e                __vector_7
+                0x000000000000017e                __vector_41
+                0x000000000000017e                __vector_27
+                0x000000000000017e                __vector_5
+                0x000000000000017e                __vector_33
+                0x000000000000017e                __vector_37
+                0x000000000000017e                __vector_4
+                0x000000000000017e                __vector_9
+                0x000000000000017e                __vector_2
+                0x000000000000017e                __vector_21
+                0x000000000000017e                __vector_15
+                0x000000000000017e                __vector_36
+                0x000000000000017e                __vector_29
+                0x000000000000017e                __vector_40
+                0x000000000000017e                __vector_8
+                0x000000000000017e                __vector_26
+                0x000000000000017e                __vector_14
+                0x000000000000017e                __vector_16
+                0x000000000000017e                __vector_18
+                0x000000000000017e                __vector_20
+                0x000000000000017e                __vector_42
+                0x0000000000000180                . = ALIGN (0x2)
+ *(.text.*)
+ .text.HardwareInit
+                0x0000000000000180       0x30 build/main.o
+                0x0000000000000180                HardwareInit
+ .text.startup.main
+                0x00000000000001b0       0x28 build/main.o
+                0x00000000000001b0                main
+ .text.CALLBACK_USB_GetDescriptor
+                0x00000000000001d8       0x60 build/usb.o
+                0x00000000000001d8                CALLBACK_USB_GetDescriptor
+ .text.USBTask  0x0000000000000238        0x8 build/usb.o
+                0x0000000000000238                USBTask
+ .text.USBBytesReceived
+                0x0000000000000240        0x6 build/usb.o
+                0x0000000000000240                USBBytesReceived
+ .text.USBReceiveByte
+                0x0000000000000246       0x34 build/usb.o
+                0x0000000000000246                USBReceiveByte
+ .text.USBWSendByte
+                0x000000000000027a        0xc build/usb.o
+                0x000000000000027a                USBWSendByte
+ .text.EVENT_USB_Device_Connect
+                0x0000000000000286        0x2 build/usb.o
+                0x0000000000000286                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x0000000000000288        0x2 build/usb.o
+                0x0000000000000288                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x000000000000028a        0x6 build/usb.o
+                0x000000000000028a                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x0000000000000290        0x6 build/usb.o
+                0x0000000000000290                EVENT_USB_Device_ControlRequest
+ .text.EVENT_CDC_Device_ControLineStateChanged
+                0x0000000000000296       0x46 build/usb.o
+                0x0000000000000296                EVENT_CDC_Device_ControLineStateChanged
+ .text.Endpoint_Write_Control_Stream_LE
+                0x00000000000002dc       0xbe build/EndpointStream_AVR8.o
+                0x00000000000002dc                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x000000000000039a       0xc0 build/EndpointStream_AVR8.o
+                0x000000000000039a                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x000000000000045a       0x68 build/Endpoint_AVR8.o
+                0x000000000000045a                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ConfigureEndpointTable
+                0x00000000000004c2       0x78 build/Endpoint_AVR8.o
+                0x00000000000004c2                Endpoint_ConfigureEndpointTable
+ .text.Endpoint_ClearStatusStage
+                0x000000000000053a       0x3e build/Endpoint_AVR8.o
+                0x000000000000053a                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x0000000000000578       0x5e build/Endpoint_AVR8.o
+                0x0000000000000578                Endpoint_WaitUntilReady
+ .text.USB_ResetInterface
+                0x00000000000005d6       0x80 build/USBController_AVR8.o
+                0x00000000000005d6                USB_ResetInterface
+ .text.USB_Init
+                0x0000000000000656       0x20 build/USBController_AVR8.o
+                0x0000000000000656                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x0000000000000676       0x10 build/USBInterrupt_AVR8.o
+                0x0000000000000676                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x0000000000000686        0xa build/USBInterrupt_AVR8.o
+                0x0000000000000686                USB_INT_ClearAllInterrupts
+ .text.__vector_10
+                0x0000000000000690      0x198 build/USBInterrupt_AVR8.o
+                0x0000000000000690                __vector_10
+ .text.__vector_11
+                0x0000000000000828       0x76 build/USBInterrupt_AVR8.o
+                0x0000000000000828                __vector_11
+ .text.USB_Device_ProcessControlRequest
+                0x000000000000089e      0x2b6 build/DeviceStandardReq.o
+                0x000000000000089e                USB_Device_ProcessControlRequest
+ .text.USB_Event_Stub
+                0x0000000000000b54        0x2 build/Events.o
+                0x0000000000000b54                EVENT_USB_Device_WakeUp
+                0x0000000000000b54                USB_Event_Stub
+                0x0000000000000b54                EVENT_USB_Device_Suspend
+                0x0000000000000b54                EVENT_USB_Device_StartOfFrame
+                0x0000000000000b54                EVENT_USB_Device_Reset
+ .text.USB_USBTask
+                0x0000000000000b56       0x36 build/USBTask.o
+                0x0000000000000b56                USB_USBTask
+ .text.CDC_Device_ConfigureEndpoints
+                0x0000000000000b8c       0x4a build/CDCClassDevice.o
+                0x0000000000000b8c                CDC_Device_ConfigureEndpoints
+ .text.CDC_Device_SendByte
+                0x0000000000000bd6       0x56 build/CDCClassDevice.o
+                0x0000000000000bd6                CDC_Device_SendByte
+ .text.CDC_Device_Flush
+                0x0000000000000c2c       0x60 build/CDCClassDevice.o
+                0x0000000000000c2c                CDC_Device_Flush
+ .text.CDC_Device_USBTask
+                0x0000000000000c8c       0x2c build/CDCClassDevice.o
+                0x0000000000000c8c                CDC_Device_USBTask
+ .text.CDC_Device_BytesReceived
+                0x0000000000000cb8       0x5e build/CDCClassDevice.o
+                0x0000000000000cb8                CDC_Device_BytesReceived
+ .text.CDC_Device_ReceiveByte
+                0x0000000000000d16       0x6c build/CDCClassDevice.o
+                0x0000000000000d16                CDC_Device_ReceiveByte
+ .text.CDC_Device_Event_Stub
+                0x0000000000000d82        0x2 build/CDCClassDevice.o
+                0x0000000000000d82                EVENT_CDC_Device_LineEncodingChanged
+                0x0000000000000d82                CDC_Device_Event_Stub
+ .text.CDC_Device_Event_Stub_2
+                0x0000000000000d84        0x2 build/CDCClassDevice.o
+                0x0000000000000d84                CDC_Device_Event_Stub_2
+                0x0000000000000d84                EVENT_CDC_Device_BreakSent
+ .text.CDC_Device_ProcessControlRequest
+                0x0000000000000d86      0x156 build/CDCClassDevice.o
+                0x0000000000000d86                CDC_Device_ProcessControlRequest
+                0x0000000000000edc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000edc        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000edc                exit
+                0x0000000000000edc                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000edc        0x4 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000000ee0                _etext = .
+
+.data           0x0000000000800100       0x1c load address 0x0000000000000ee0
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100       0x1b build/usb.o
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x000000000080011c                . = ALIGN (0x2)
+ *fill*         0x000000000080011b        0x1 
+                0x000000000080011c                _edata = .
+                0x000000000080011c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080011c        0xd
+                0x000000000080011c                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x000000000080011c        0x3 build/DeviceStandardReq.o
+                0x000000000080011c                USB_Device_ConfigurationNumber
+                0x000000000080011d                USB_Device_CurrentlySelfPowered
+                0x000000000080011e                USB_Device_RemoteWakeupEnabled
+ COMMON         0x000000000080011f        0xa build/USBTask.o
+                0x000000000080011f                USB_IsInitialized
+                0x0000000000800120                USB_DeviceState
+                0x0000000000800121                USB_ControlRequest
+                0x0000000000800129                PROVIDE (__bss_end, .)
+                0x0000000000000ee0                __data_load_start = LOADADDR (.data)
+                0x0000000000000efc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800129        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800129                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 build/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 build/usb.o
+ .comment       0x0000000000000011       0x12 build/EndpointStream_AVR8.o
+ .comment       0x0000000000000011       0x12 build/Endpoint_AVR8.o
+ .comment       0x0000000000000011       0x12 build/USBController_AVR8.o
+ .comment       0x0000000000000011       0x12 build/USBInterrupt_AVR8.o
+ .comment       0x0000000000000011       0x12 build/DeviceStandardReq.o
+ .comment       0x0000000000000011       0x12 build/Events.o
+ .comment       0x0000000000000011       0x12 build/USBTask.o
+ .comment       0x0000000000000011       0x12 build/CDCClassDevice.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x318
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 build/main.o
+ .debug_aranges
+                0x0000000000000028       0x60 build/usb.o
+ .debug_aranges
+                0x0000000000000088       0xc8 build/EndpointStream_AVR8.o
+ .debug_aranges
+                0x0000000000000150       0x40 build/Endpoint_AVR8.o
+ .debug_aranges
+                0x0000000000000190       0x30 build/USBController_AVR8.o
+ .debug_aranges
+                0x00000000000001c0       0x38 build/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x00000000000001f8       0x20 build/DeviceStandardReq.o
+ .debug_aranges
+                0x0000000000000218       0x30 build/Events.o
+ .debug_aranges
+                0x0000000000000248       0x20 build/USBTask.o
+ .debug_aranges
+                0x0000000000000268       0xb0 build/CDCClassDevice.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x658a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x9f4 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_info    0x00000000000009f4      0x416 build/main.o
+ .debug_info    0x0000000000000e0a      0xd4e build/usb.o
+ .debug_info    0x0000000000001b58     0x17d8 build/EndpointStream_AVR8.o
+ .debug_info    0x0000000000003330      0x64a build/Endpoint_AVR8.o
+ .debug_info    0x000000000000397a      0x54a build/USBController_AVR8.o
+ .debug_info    0x0000000000003ec4      0x875 build/USBInterrupt_AVR8.o
+ .debug_info    0x0000000000004739      0xa60 build/DeviceStandardReq.o
+ .debug_info    0x0000000000005199       0xe2 build/Events.o
+ .debug_info    0x000000000000527b      0x2a7 build/USBTask.o
+ .debug_info    0x0000000000005522     0x1068 build/CDCClassDevice.o
+
+.debug_abbrev   0x0000000000000000     0x201f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x96a /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_abbrev  0x000000000000096a      0x22d build/main.o
+ .debug_abbrev  0x0000000000000b97      0x302 build/usb.o
+ .debug_abbrev  0x0000000000000e99      0x20a build/EndpointStream_AVR8.o
+ .debug_abbrev  0x00000000000010a3      0x251 build/Endpoint_AVR8.o
+ .debug_abbrev  0x00000000000012f4      0x1af build/USBController_AVR8.o
+ .debug_abbrev  0x00000000000014a3      0x231 build/USBInterrupt_AVR8.o
+ .debug_abbrev  0x00000000000016d4      0x2fc build/DeviceStandardReq.o
+ .debug_abbrev  0x00000000000019d0       0x81 build/Events.o
+ .debug_abbrev  0x0000000000001a51      0x198 build/USBTask.o
+ .debug_abbrev  0x0000000000001be9      0x436 build/CDCClassDevice.o
+
+.debug_line     0x0000000000000000     0x368a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_line    0x000000000000001a      0x27b build/main.o
+ .debug_line    0x0000000000000295      0x39b build/usb.o
+ .debug_line    0x0000000000000630     0x138f build/EndpointStream_AVR8.o
+ .debug_line    0x00000000000019bf      0x4b2 build/Endpoint_AVR8.o
+ .debug_line    0x0000000000001e71      0x2f9 build/USBController_AVR8.o
+ .debug_line    0x000000000000216a      0x52f build/USBInterrupt_AVR8.o
+ .debug_line    0x0000000000002699      0x4ad build/DeviceStandardReq.o
+ .debug_line    0x0000000000002b46       0xa9 build/Events.o
+ .debug_line    0x0000000000002bef      0x176 build/USBTask.o
+ .debug_line    0x0000000000002d65      0x925 build/CDCClassDevice.o
+
+.debug_frame    0x0000000000000000      0x91c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x44 build/main.o
+ .debug_frame   0x0000000000000044       0xc0 build/usb.o
+ .debug_frame   0x0000000000000104      0x404 build/EndpointStream_AVR8.o
+ .debug_frame   0x0000000000000508       0x78 build/Endpoint_AVR8.o
+ .debug_frame   0x0000000000000580       0x58 build/USBController_AVR8.o
+ .debug_frame   0x00000000000005d8       0xe8 build/USBInterrupt_AVR8.o
+ .debug_frame   0x00000000000006c0       0x3c build/DeviceStandardReq.o
+ .debug_frame   0x00000000000006fc       0x44 build/Events.o
+ .debug_frame   0x0000000000000740       0x2c build/USBTask.o
+ .debug_frame   0x000000000000076c      0x1b0 build/CDCClassDevice.o
+
+.debug_str      0x0000000000000000     0x272f
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x371 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+ .debug_str     0x0000000000000371      0x370 build/main.o
+                                        0x3b6 (size before relaxing)
+ .debug_str     0x00000000000006e1      0xbf7 build/usb.o
+                                        0xf3b (size before relaxing)
+ .debug_str     0x00000000000012d8      0x641 build/EndpointStream_AVR8.o
+                                        0x8b2 (size before relaxing)
+ .debug_str     0x0000000000001919      0x2da build/Endpoint_AVR8.o
+                                        0x672 (size before relaxing)
+ .debug_str     0x0000000000001bf3      0x221 build/USBController_AVR8.o
+                                        0x596 (size before relaxing)
+ .debug_str     0x0000000000001e14      0x194 build/USBInterrupt_AVR8.o
+                                        0x666 (size before relaxing)
+ .debug_str     0x0000000000001fa8      0x422 build/DeviceStandardReq.o
+                                        0x9a3 (size before relaxing)
+ .debug_str     0x00000000000023ca       0x5a build/Events.o
+                                        0x1b9 (size before relaxing)
+ .debug_str     0x0000000000002424       0x46 build/USBTask.o
+                                        0x3c5 (size before relaxing)
+ .debug_str     0x000000000000246a      0x2c5 build/CDCClassDevice.o
+                                        0xb04 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x3e02
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x5c build/main.o
+ .debug_loc     0x000000000000005c      0x2e3 build/usb.o
+ .debug_loc     0x000000000000033f     0x2410 build/EndpointStream_AVR8.o
+ .debug_loc     0x000000000000274f      0x422 build/Endpoint_AVR8.o
+ .debug_loc     0x0000000000002b71       0xd5 build/USBController_AVR8.o
+ .debug_loc     0x0000000000002c46      0x3e7 build/USBInterrupt_AVR8.o
+ .debug_loc     0x000000000000302d      0x324 build/DeviceStandardReq.o
+ .debug_loc     0x0000000000003351       0x49 build/USBTask.o
+ .debug_loc     0x000000000000339a      0xa68 build/CDCClassDevice.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x628
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 build/main.o
+ .debug_ranges  0x0000000000000018       0x68 build/usb.o
+ .debug_ranges  0x0000000000000080      0x238 build/EndpointStream_AVR8.o
+ .debug_ranges  0x00000000000002b8       0xe8 build/Endpoint_AVR8.o
+ .debug_ranges  0x00000000000003a0       0x20 build/USBController_AVR8.o
+ .debug_ranges  0x00000000000003c0       0x28 build/USBInterrupt_AVR8.o
+ .debug_ranges  0x00000000000003e8      0x128 build/DeviceStandardReq.o
+ .debug_ranges  0x0000000000000510       0x20 build/Events.o
+ .debug_ranges  0x0000000000000530       0x58 build/USBTask.o
+ .debug_ranges  0x0000000000000588       0xa0 build/CDCClassDevice.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(main.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Audio_Device_ConfigureEndpoints                   build/AudioClassDevice.o
+Audio_Device_Event_Stub                           build/AudioClassDevice.o
+Audio_Device_ProcessControlRequest                build/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetEndpointProperty      build/AudioClassDevice.o
+CALLBACK_Audio_Device_GetSetInterfaceProperty     build/AudioClassDevice.o
+CALLBACK_CCID_Abort                               build/CCIDClassDevice.o
+CALLBACK_CCID_GetParameters_T0                    build/CCIDClassDevice.o
+CALLBACK_CCID_GetSlotStatus                       build/CCIDClassDevice.o
+CALLBACK_CCID_IccPowerOff                         build/CCIDClassDevice.o
+CALLBACK_CCID_IccPowerOn                          build/CCIDClassDevice.o
+CALLBACK_CCID_SetParameters_T0                    build/CCIDClassDevice.o
+CALLBACK_CCID_XfrBlock                            build/CCIDClassDevice.o
+CALLBACK_HIDParser_FilterHIDReportItem            build/HIDParser.o
+CALLBACK_HID_Device_CreateHIDReport               build/HIDClassDevice.o
+CALLBACK_HID_Device_ProcessHIDReport              build/HIDClassDevice.o
+CALLBACK_MS_Device_SCSICommandReceived            build/MassStorageClassDevice.o
+CALLBACK_USB_GetDescriptor                        build/usb.o
+                                                  build/DeviceStandardReq.o
+CCID_CheckStatusNoError                           build/CCIDClassDevice.o
+CCID_Device_ConfigureEndpoints                    build/CCIDClassDevice.o
+CCID_Device_ProcessControlRequest                 build/CCIDClassDevice.o
+CCID_Device_USBTask                               build/CCIDClassDevice.o
+CDC_Device_BytesReceived                          build/CDCClassDevice.o
+                                                  build/usb.o
+CDC_Device_ConfigureEndpoints                     build/CDCClassDevice.o
+                                                  build/usb.o
+CDC_Device_CreateBlockingStream                   build/CDCClassDevice.o
+CDC_Device_CreateStream                           build/CDCClassDevice.o
+CDC_Device_Event_Stub                             build/CDCClassDevice.o
+CDC_Device_Event_Stub_2                           build/CDCClassDevice.o
+CDC_Device_Flush                                  build/CDCClassDevice.o
+CDC_Device_ProcessControlRequest                  build/CDCClassDevice.o
+                                                  build/usb.o
+CDC_Device_ReceiveByte                            build/CDCClassDevice.o
+                                                  build/usb.o
+CDC_Device_SendByte                               build/CDCClassDevice.o
+                                                  build/usb.o
+CDC_Device_SendControlLineStateChange             build/CDCClassDevice.o
+CDC_Device_SendData                               build/CDCClassDevice.o
+CDC_Device_SendData_P                             build/CDCClassDevice.o
+CDC_Device_SendString                             build/CDCClassDevice.o
+CDC_Device_SendString_P                           build/CDCClassDevice.o
+CDC_Device_USBTask                                build/CDCClassDevice.o
+                                                  build/usb.o
+EVENT_Audio_Device_StreamStartStop                build/AudioClassDevice.o
+EVENT_CDC_Device_BreakSent                        build/CDCClassDevice.o
+EVENT_CDC_Device_ControLineStateChanged           build/usb.o
+EVENT_CDC_Device_LineEncodingChanged              build/CDCClassDevice.o
+EVENT_PRNT_Device_SoftReset                       build/PrinterClassDevice.o
+EVENT_USB_Device_ConfigurationChanged             build/usb.o
+                                                  build/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          build/usb.o
+                                                  build/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   build/usb.o
+                                                  build/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       build/usb.o
+                                                  build/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            build/Events.o
+                                                  build/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     build/Events.o
+                                                  build/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          build/Events.o
+                                                  build/USBInterrupt_AVR8.o
+EVENT_USB_Device_WakeUp                           build/Events.o
+                                                  build/USBInterrupt_AVR8.o
+Endpoint_ClearEndpoints                           build/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         build/Endpoint_AVR8.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/AudioClassDevice.o
+                                                  build/DeviceStandardReq.o
+Endpoint_ConfigureEndpointTable                   build/Endpoint_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MIDIClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/CCIDClassDevice.o
+                                                  build/AudioClassDevice.o
+Endpoint_ConfigureEndpoint_Prv                    build/Endpoint_AVR8.o
+                                                  build/USBInterrupt_AVR8.o
+                                                  build/USBController_AVR8.o
+Endpoint_Discard_Stream                           build/EndpointStream_AVR8.o
+                                                  build/RNDISClassDevice.o
+Endpoint_Null_Stream                              build/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  build/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  build/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   build/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   build/EndpointStream_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/AudioClassDevice.o
+Endpoint_Read_EStream_BE                          build/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          build/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           build/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           build/EndpointStream_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/MIDIClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/CCIDClassDevice.o
+Endpoint_WaitUntilReady                           build/Endpoint_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MIDIClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 build/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 build/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 build/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 build/EndpointStream_AVR8.o
+                                                  build/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  build/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  build/EndpointStream_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/AudioClassDevice.o
+                                                  build/DeviceStandardReq.o
+Endpoint_Write_EStream_BE                         build/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         build/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         build/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         build/EndpointStream_AVR8.o
+                                                  build/CDCClassDevice.o
+Endpoint_Write_Stream_BE                          build/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          build/EndpointStream_AVR8.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MIDIClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/CCIDClassDevice.o
+HID_Device_ConfigureEndpoints                     build/HIDClassDevice.o
+HID_Device_ProcessControlRequest                  build/HIDClassDevice.o
+HID_Device_USBTask                                build/HIDClassDevice.o
+HardwareInit                                      build/main.o
+MIDI_Device_ConfigureEndpoints                    build/MIDIClassDevice.o
+MIDI_Device_Flush                                 build/MIDIClassDevice.o
+MIDI_Device_ReceiveEventPacket                    build/MIDIClassDevice.o
+MIDI_Device_SendEventPacket                       build/MIDIClassDevice.o
+MIDI_Device_USBTask                               build/MIDIClassDevice.o
+MS_Device_ConfigureEndpoints                      build/MassStorageClassDevice.o
+MS_Device_ProcessControlRequest                   build/MassStorageClassDevice.o
+MS_Device_USBTask                                 build/MassStorageClassDevice.o
+PRNT_Device_BytesReceived                         build/PrinterClassDevice.o
+PRNT_Device_ConfigureEndpoints                    build/PrinterClassDevice.o
+PRNT_Device_CreateBlockingStream                  build/PrinterClassDevice.o
+PRNT_Device_CreateStream                          build/PrinterClassDevice.o
+PRNT_Device_Event_Stub                            build/PrinterClassDevice.o
+PRNT_Device_Flush                                 build/PrinterClassDevice.o
+PRNT_Device_ProcessControlRequest                 build/PrinterClassDevice.o
+PRNT_Device_ReceiveByte                           build/PrinterClassDevice.o
+PRNT_Device_SendByte                              build/PrinterClassDevice.o
+PRNT_Device_SendData                              build/PrinterClassDevice.o
+PRNT_Device_SendString                            build/PrinterClassDevice.o
+PRNT_Device_USBTask                               build/PrinterClassDevice.o
+RNDIS_Device_ConfigureEndpoints                   build/RNDISClassDevice.o
+RNDIS_Device_IsPacketReceived                     build/RNDISClassDevice.o
+RNDIS_Device_ProcessControlRequest                build/RNDISClassDevice.o
+RNDIS_Device_ReadPacket                           build/RNDISClassDevice.o
+RNDIS_Device_SendPacket                           build/RNDISClassDevice.o
+RNDIS_Device_USBTask                              build/RNDISClassDevice.o
+USBBytesReceived                                  build/usb.o
+                                                  build/main.o
+USBReceiveByte                                    build/usb.o
+                                                  build/main.o
+USBTask                                           build/usb.o
+                                                  build/main.o
+USBWSendByte                                      build/usb.o
+                                                  build/main.o
+USB_ControlRequest                                build/USBTask.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/CCIDClassDevice.o
+                                                  build/AudioClassDevice.o
+                                                  build/DeviceStandardReq.o
+                                                  build/Endpoint_AVR8.o
+                                                  build/EndpointStream_AVR8.o
+USB_DeviceState                                   build/USBTask.o
+                                                  build/RNDISClassDevice.o
+                                                  build/PrinterClassDevice.o
+                                                  build/MIDIClassDevice.o
+                                                  build/MassStorageClassDevice.o
+                                                  build/HIDClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/DeviceStandardReq.o
+                                                  build/USBInterrupt_AVR8.o
+                                                  build/USBController_AVR8.o
+                                                  build/Endpoint_AVR8.o
+                                                  build/EndpointStream_AVR8.o
+USB_Device_ConfigurationNumber                    build/DeviceStandardReq.o
+                                                  build/USBInterrupt_AVR8.o
+                                                  build/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   build/DeviceStandardReq.o
+                                                  build/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  build/DeviceStandardReq.o
+                                                  build/USBTask.o
+                                                  build/USBInterrupt_AVR8.o
+USB_Device_RemoteWakeupEnabled                    build/DeviceStandardReq.o
+                                                  build/USBController_AVR8.o
+USB_Device_SendRemoteWakeup                       build/Device_AVR8.o
+USB_Disable                                       build/USBController_AVR8.o
+USB_Event_Stub                                    build/Events.o
+USB_Event_Stub_2                                  build/Events.o
+USB_Event_Stub_3                                  build/Events.o
+USB_GetHIDReportItemInfo                          build/HIDParser.o
+USB_GetHIDReportSize                              build/HIDParser.o
+USB_GetNextDescriptorComp                         build/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       build/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  build/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 build/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        build/USBInterrupt_AVR8.o
+                                                  build/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      build/USBInterrupt_AVR8.o
+                                                  build/USBController_AVR8.o
+USB_Init                                          build/USBController_AVR8.o
+                                                  build/main.o
+USB_IsInitialized                                 build/USBTask.o
+                                                  build/USBController_AVR8.o
+USB_ProcessHIDReport                              build/HIDParser.o
+USB_ResetInterface                                build/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          build/HIDParser.o
+USB_USBTask                                       build/USBTask.o
+                                                  build/PrinterClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/usb.o
+__DATA_REGION_LENGTH__                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__DATA_REGION_ORIGIN__                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__EEPROM_REGION_LENGTH__                          /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__TEXT_REGION_LENGTH__                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__bad_interrupt                                   /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__bss_end                                         /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                                                  build/USBTask.o
+                                                  build/DeviceStandardReq.o
+__do_copy_data                                    /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                                                  build/RNDISClassDevice.o
+                                                  build/CDCClassDevice.o
+                                                  build/usb.o
+__heap_end                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__init                                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__stack                                           /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__strlen_P                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(strlen_P.o)
+                                                  build/CDCClassDevice.o
+__vector_1                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_10                                       build/USBInterrupt_AVR8.o
+                                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_11                                       build/USBInterrupt_AVR8.o
+                                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_12                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_13                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_14                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_15                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_16                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_17                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_18                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_19                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_2                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_20                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_21                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_22                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_23                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_24                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_25                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_26                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_27                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_28                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_29                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_3                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_30                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_31                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_32                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_33                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_34                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_35                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_36                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_37                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_38                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_39                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_4                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_40                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_41                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_42                                       /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_5                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_6                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_7                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_8                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_9                                        /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vector_default                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+__vectors                                         /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+_exit                                             /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+eeprom_read_byte                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+                                                  build/EndpointStream_AVR8.o
+eeprom_update_byte                                /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+                                                  build/EndpointStream_AVR8.o
+eeprom_update_r18                                 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+exit                                              /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+language_string                                   build/usb.o
+main                                              build/main.o
+                                                  /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32u4.o
+manufacturer_string                               build/usb.o
+memcmp                                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcmp.o)
+                                                  build/HIDClassDevice.o
+memcpy                                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                                                  build/RNDISClassDevice.o
+                                                  build/HIDClassDevice.o
+memcpy_P                                          /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memcpy_P.o)
+                                                  build/RNDISClassDevice.o
+memset                                            /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/libc.a(memset.o)
+                                                  build/HIDClassDevice.o
+product_string                                    build/usb.o
