@@ -6,7 +6,7 @@ F_USB        = $(F_CPU)
 OPTIMIZATION = s
 TARGET       = main
 SRC          = $(TARGET).c usb.c $(LUFA_SRC_USB) $(LUFA_SRC_USBCLASS)
-LUFA_PATH    = libs/lufa/LUFA
+LUFA_PATH    = /libs/lufa/LUFA
 CC_FLAGS     = -DUSE_LUFA_CONFIG_HEADER -I.
 LD_FLAGS     =
 OBJDIR       = build
@@ -15,7 +15,7 @@ build: all
 	@mv $(filter-out $(TARGET).c,$(shell ls $(TARGET)*)) build
 
 upload: build
-	$(shell scripts/arduino-leonardo-upload.sh build/$(TARGET).hex)
+	$(shell /scripts/arduino-leonardo-upload.sh build/$(TARGET).hex)
 
 DMBS_LUFA_PATH ?= $(LUFA_PATH)/Build/LUFA
 include $(DMBS_LUFA_PATH)/lufa-sources.mk

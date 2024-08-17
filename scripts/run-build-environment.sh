@@ -30,6 +30,6 @@ docker run -it --rm \
   --privileged \
   --device "/dev/bus/usb:/dev/bus/usb" \
   -v $PROJECT_PATH:/$PROJECT_NAME \
-  -v $SCRIPTS_PATH:/$PROJECT_NAME/scripts \
-  -v $LIBS_PATH:/$PROJECT_NAME/libs \
+  -v $SCRIPTS_PATH:/scripts \
+  -v $LIBS_PATH:/libs \
   $DOCKER_IMAGE bash

@@ -6,6 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 FILE=$1
+CURRENT_SCRIPT_PATH=$(dirname $(realpath $0))
 
 if [ ! -f "${FILE}" ]; then
   echo "The input file ${FILE} does not exist"
@@ -18,7 +19,7 @@ if [ "${FILE##*.}" != "hex" ]; then
 fi
 
 SCRIPT_PATH=$(dirname $(realpath $0))
-PORT=$(scripts/arduino-leonardo-bootloader-port.py)
+PORT=$(${CURRENT_SCRIPT_PATH}/arduino-leonardo-bootloader-port.py)
 
 if [ -z "${PORT}" ]; then
   echo "Can not find the bootloader for Arduino Leonardo"
