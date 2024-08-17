@@ -15,12 +15,7 @@ build: all
 	@mv $(filter-out $(TARGET).c,$(shell ls $(TARGET)*)) build
 
 upload: build
-	$(eval PORT := $(shell scripts/arduino-leonardo-bootloader.py))
-	@if [ -z "$(PORT)" ]; then \
-		echo "Can not find the bootloader for Arduino Leonardo" ; \
-	else \
-		avrdude -p $(MCU) -c avr109 -P $(PORT) -b 57600 -U flash:w:build/$(TARGET).hex:i ; \
-	fi
+	$(shell scripts/arduino-leonardo-upload.sh build/$(TARGET).hex)
 
 DMBS_LUFA_PATH ?= $(LUFA_PATH)/Build/LUFA
 include $(DMBS_LUFA_PATH)/lufa-sources.mk
